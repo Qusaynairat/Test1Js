@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 15px 0px;
+}
+/* =============================================================== */
+nav .row{
+    display:flex;  
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    
+    padding-bottom: 20px;
+}
+nav .row .icon{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+nav .row .icon .fa-brands{ 
+    color: blue;
+    font-size: 50px;
+}
+nav .row .navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+nav .row .navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s; 
+}
+nav .row .navbar a:hover{
+    background:linear-gradient(to right, rgba(55, 0, 255, 0.445), rgb(22, 5, 255));
+    color: white;
+    padding:15px 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+nav .row .navbar ul{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+nav .row .navbar ul li{
+    list-style: none;
+}
+nav .row .reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+nav .row .reg .show-btn{
+    text-decoration: none;
+    background:linear-gradient(to right, rgba(80, 39, 228, 0.445), rgb(52, 39, 236));
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+nav .row .reg .hide-btn{
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(to right, rgba(80, 39, 228, 0.445), rgb(52, 39, 236));
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+nav .row .reg .show-btn:hover{
+    background: linear-gradient(to right, rgba(255, 255, 255), rgb(255, 255, 255));
+    color: blue;
+}
+nav .row .reg .hide-btn:hover{
+    background: linear-gradient(to right, rgba(255, 255, 255), rgb(255, 255, 255));
+    color: blue;
+}   
+.products{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.product{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+    transition: all 0.3s;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    aspect-ratio: 1/0.8;
+    padding-bottom:12px;
+}
+.product h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}   
+.product h4{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: rgb(255, 0, 0);
+}
+.product .buy{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background:linear-gradient(to right, rgba(80, 39, 228, 0.445), rgb(52, 39, 236));
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.product .buy:hover{
+    background: linear-gradient(to right, rgba(255, 255, 255), rgb(255, 255, 255));
+    color: blue;
+}
